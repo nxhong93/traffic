@@ -1,0 +1,8 @@
+torch>=1.4.0
+timm>=0.3.0
+torchvision
+pyyaml
+numpy
+omegaconf
+ensemble_boxes
+pycocotools>=2.0.2
