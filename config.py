@@ -49,11 +49,11 @@ class GlobalConfig:
 
 
 class PredictConfig:
-    SCORE_THRESH = 0.15
+    SCORE_THRESH = 0.1
     IOU_THRESH = 0.01
-    SKIP_THRESH = 0.025
-    SCORE_LAST = 0.185
-    IOU_THRESH2=0.15
+    SKIP_THRESH = 0.0
+    SCORE_LAST = 0.05
+    IOU_THRESH2=0.1
 
 
 train_transform = al.Compose([
